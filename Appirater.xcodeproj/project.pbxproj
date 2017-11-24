@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AB9188091FC7FAD3008759B5 /* Appirater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9187FF1FC7FAD3008759B5 /* Appirater.framework */; };
 		AB91880E1FC7FAD3008759B5 /* AppiraterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB91880D1FC7FAD3008759B5 /* AppiraterTests.m */; };
-		AB9188101FC7FAD3008759B5 /* Appirater.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9188021FC7FAD3008759B5 /* Appirater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB9188401FC7FB44008759B5 /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB91881A1FC7FB44008759B5 /* AppiraterLocalizable.strings */; };
 		AB9188411FC7FB44008759B5 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = AB91882A1FC7FB44008759B5 /* Appirater.m */; };
 		AB9188421FC7FB44008759B5 /* AppiraterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9188311FC7FB44008759B5 /* AppiraterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		AB9187FF1FC7FAD3008759B5 /* Appirater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appirater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB9188021FC7FAD3008759B5 /* Appirater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
 		AB9188031FC7FAD3008759B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9188081FC7FAD3008759B5 /* AppiraterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppiraterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB91880D1FC7FAD3008759B5 /* AppiraterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppiraterTests.m; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				AB9188191FC7FB44008759B5 /* Source */,
-				AB9188021FC7FAD3008759B5 /* Appirater.h */,
 				AB9188031FC7FAD3008759B5 /* Info.plist */,
 			);
 			path = Appirater;
@@ -148,7 +145,6 @@
 			files = (
 				AB9188431FC7FB44008759B5 /* Appirater.h in Headers */,
 				AB9188421FC7FB44008759B5 /* AppiraterDelegate.h in Headers */,
-				AB9188101FC7FAD3008759B5 /* Appirater.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

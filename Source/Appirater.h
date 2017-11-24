@@ -34,6 +34,17 @@
  * Copyright 2012 Arash Payan. All rights reserved.
  */
 
+#import <UIKit/UIKit.h>
+
+
+//! Project version number for Appirater.
+FOUNDATION_EXPORT double AppiraterVersionNumber;
+
+//! Project version string for Appirater.
+FOUNDATION_EXPORT const unsigned char AppiraterVersionString[];
+
+
+
 #import <Foundation/Foundation.h>
 #import <StoreKit/StoreKit.h>
 #import "AppiraterDelegate.h"
